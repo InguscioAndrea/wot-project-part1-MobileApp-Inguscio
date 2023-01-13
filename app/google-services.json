@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1065416353614",
+    "project_id": "sarc-app",
+    "storage_bucket": "sarc-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065416353614:android:c8e4e57025a122592b201f",
+        "android_client_info": {
+          "package_name": "com.example.tabbedapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065416353614-8nv3fu5gmkivgilg5a9nqtuatg76k35e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClqP6sociCMNBk8ub5hu-bQIKzxGv1qwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065416353614-8nv3fu5gmkivgilg5a9nqtuatg76k35e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

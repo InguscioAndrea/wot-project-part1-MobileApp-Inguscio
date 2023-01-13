@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00006064"
+    android:backgroundTint="#00006064">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linear_layout_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100" >
+
+                <TextView
+                    android:id="@+id/Title_edit_profile"
+                    android:layout_width="0dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="100"
+                    android:text="Profile summary of the user:"
+                    android:textAlignment="center"
+                    android:textColor="#004D40"
+                    android:textSize="22sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="730dp">
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="140dp"
+                    android:layout_height="31dp"
+                    android:layout_marginTop="51dp"
+                    android:text="Gender"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="23dp"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintBottom_toTopOf="@+id/radioGroup"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edtText_newAddress" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="140dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="33dp"
+                    android:text="Weight (Kg)"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/edtText_Height"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edtText_newEmail"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="140dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Height (cm)"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="13dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintBottom_toTopOf="@+id/edtText_Height"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edtText_newEmail" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="140dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="15dp"
+                    android:text="E-mail"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="13dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintBottom_toTopOf="@+id/edtText_newEmail"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edtText_newPhone" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="140dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Telephone"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="13dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintBottom_toTopOf="@+id/edtText_newPhone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edtText_new_city" />
+
+                <EditText
+                    android:id="@+id/edtText_new_city"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:ems="10"
+                    android:hint="City"
+                    android:textColor="#004D40"
+                    android:layout_marginStart="13dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView15"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="140dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Surname"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="33dp"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintBottom_toTopOf="@+id/edtText_newSurname"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linear_layout_title"
+                    tools:ignore="NotSibling" />
+
+                <EditText
+                    android:id="@+id/edtText_newPhone"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:ems="10"
+                    android:hint="Telephone"
+                    android:inputType="phone"
+                    android:textColor="#004D40"
+                    android:layout_marginStart="13dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView16"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/edtText_Height"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:ems="10"
+                    android:hint="cm"
+                    android:inputType="number"
+                    android:textColor="#004D40"
+                    android:layout_marginStart="13dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView18"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/edtText_newEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginEnd="13dp"
+                    android:ems="10"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#004D40"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView17"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/edtText_newDate_of_birth"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:layout_marginEnd="13dp"
+                    android:ems="10"
+                    android:hint="dd/MM/yyyy"
+                    android:inputType="textPersonName"
+                    android:textColor="#004D40"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView13"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/edtText_newAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:ems="10"
+                    android:hint="Address"
+                    android:inputType="textPersonName"
+                    android:textColor="#004D40"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginEnd="13dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView14"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/edtText_newSurname"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:ems="10"
+                    android:hint="Surname"
+                    android:inputType="textPersonName"
+                    android:textColor="#004D40"
+                    android:layout_marginEnd="13dp"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView8"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/edtText_newPlace_of_birth"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:ems="10"
+                    android:hint="Place of birth"
+                    android:inputType="textPersonName"
+                    android:textColor="#004D40"
+                    android:layout_marginStart="13dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView10"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/edtText_Weight"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:ems="10"
+                    android:hint="Kg"
+                    android:inputType="number"
+                    android:textColor="#004D40"
+                    android:layout_marginEnd="13dp"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView26"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/edtText_newName"
+                    android:layout_width="160dp"
+                    android:layout_height="45dp"
+                    android:ems="10"
+                    android:hint="Name"
+                    android:inputType="textPersonName"
+                    android:textColor="#004D40"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="13dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <Button
+                    android:id="@+id/btn_EditProfile"
+                    android:layout_width="130dp"
+                    android:layout_height="58dp"
+                    android:layout_marginTop="30dp"
+                    android:backgroundTint="#004D40"
+                    android:text="Edit Profile"
+                    android:textColor="#FCFAF5"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edtText_Weight" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="140dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Name"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/edtText_newName"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="13dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linear_layout_title"
+                    tools:ignore="NotSibling" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="140dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Place of birth"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="13dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintBottom_toTopOf="@+id/edtText_newPlace_of_birth"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edtText_newName" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="140dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="15dp"
+                    android:text="City"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="13dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintBottom_toTopOf="@+id/edtText_new_city"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edtText_newAddress" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="140dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Address"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="13dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintBottom_toTopOf="@+id/edtText_newAddress"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edtText_newPlace_of_birth" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="140dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="33dp"
+                    android:text="Date of birth"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/edtText_newDate_of_birth"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edtText_newSurname" />
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="154dp"
+                    android:layout_height="90dp"
+                    android:layout_marginBottom="51dp"
+                    android:orientation="vertical"
+                    android:layout_marginEnd="9dp"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintBottom_toTopOf="@+id/edtText_newEmail"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView27">
+
+                    <RadioButton
+                        android:id="@+id/id_radio_femmina"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:text="Female"
+                        android:textColor="#004D40"
+                        android:textSize="18sp"
+                        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                    <RadioButton
+                        android:id="@+id/id_radio_maschio"
+                        android:layout_width="97dp"
+                        android:layout_height="35dp"
+                        android:text="Male"
+                        android:textColor="#004D40"
+                        android:textSize="18sp"
+                        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+                </RadioGroup>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

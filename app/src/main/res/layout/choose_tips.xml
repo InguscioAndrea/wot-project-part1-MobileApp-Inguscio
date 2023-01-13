@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btn_pdf_patient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:weightSum="100"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/id_previous_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="80"
+            android:text="Do you need help? Choose the area of interest and read the suggestions that we offer you."
+            android:textAlignment="center"
+            android:textColor="#004D40"
+            android:textSize="22sp"
+            android:textStyle="bold|italic" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout_2"
+        app:layout_constraintTop_toBottomOf="@+id/linear_layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="132dp"
+        android:weightSum="100"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_speed_tips"
+            android:layout_width="match_parent"
+            android:layout_marginTop="100dp"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:paddingLeft="0dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="35dp"
+            android:text="walking speed tips"
+            android:textSize="16sp"
+            android:background="@drawable/style_button"
+            app:icon="@drawable/run_tips_foreground"
+
+            />
+
+        <Button
+            android:id="@+id/btn_hand_grip_tips"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="30dp"
+            android:layout_weight="20"
+            android:layout_height="0dp"
+            android:paddingLeft="0dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="35dp"
+            android:text="hand grip tips"
+            android:textSize="16sp"
+            android:background="@drawable/style_button"
+            app:icon="@drawable/hand_grip_tips_foreground"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/btn_muscle_mass_tips"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="35dp"
+            android:paddingLeft="30dp"
+            android:layout_weight="20"
+            android:background="@drawable/style_button"
+            android:text="muscle mass tips"
+            android:textSize="16sp"
+            app:icon="@drawable/ic_icons8_measure_60" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/id_icona_aiuto"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="-10dp"
+        android:drawableLeft="@drawable/icona_help_foreground"
+        android:paddingLeft="-15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/id_text_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="0dp"
+        android:text="Need more help? Contact us!"
+        android:layout_marginBottom="23dp"
+        android:textAlignment="textStart"
+        android:textColor="#004D40"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/id_icona_aiuto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

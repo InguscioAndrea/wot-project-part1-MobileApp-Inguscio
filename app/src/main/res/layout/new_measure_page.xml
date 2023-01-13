@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/id_Speed"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_StepCount" />
+
+    <TextView
+        android:id="@+id/id_StepCount"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_GaitSpeedTitle" />
+
+    <TextView
+        android:id="@+id/id_StepFrequency"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="0dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_GaitSpeedTitle" />
+
+    <TextView
+        android:id="@+id/id_FatMass"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_WeightMeasure" />
+
+    <TextView
+        android:id="@+id/id_BoneMass"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:layout_marginEnd="0dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_MuscleMass" />
+
+    <TextView
+        android:id="@+id/id_title_NewMeasure"
+        android:layout_weight="100"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="15dp"
+        android:text="Loading"
+        android:textAlignment="center"
+        android:textColor="#004d40"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/id_current_time"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:text="Load"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="0dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/id_operation"
+        app:layout_constraintTop_toBottomOf="@+id/id_title_NewMeasure" />
+
+    <TextView
+        android:id="@+id/id_hand_grip_min"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Id_handGripTitle" />
+
+    <TextView
+        android:id="@+id/id_WeightMeasure"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_BIATitle" />
+
+    <TextView
+        android:id="@+id/id_MuscleMass"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:layout_marginEnd="0dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_BIATitle" />
+
+    <TextView
+        android:id="@+id/id_hand_grip_max"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:layout_marginEnd="0dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Id_handGripTitle" />
+
+    <TextView
+        android:id="@+id/Id_handGripTitle"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="40dp"
+        android:text="HAND GRIP ANALYSIS RESULT"
+        android:textColor="#004D40"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_current_time" />
+
+    <TextView
+        android:id="@+id/id_BIATitle"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="40dp"
+        android:text="BIOIMPEDANCE ANALYSIS RESULT"
+        android:textColor="#004D40"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_hand_grip_min" />
+
+    <TextView
+        android:id="@+id/id_GaitSpeedTitle"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="40dp"
+        android:text="GAIT SPEED ANALYSIS RESULT"
+        android:textColor="#004D40"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_FatMass" />
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="135sp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="8dp"
+        android:text="Back"
+        android:textSize="16sp"
+        app:icon="@drawable/ic_icons8_ritorno_64"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintVertical_bias="1.0"/>
+
+    <TextView
+        android:id="@+id/id_operation"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_title_NewMeasure" />
+</androidx.constraintlayout.widget.ConstraintLayout>

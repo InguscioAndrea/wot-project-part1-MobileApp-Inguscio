@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Sarc-App</string>
+    <string name="login_page_name">Login Page</string>
+    <string name="administrator_page_name">Administrator Page</string>
+
+
+    <string name="tab_text_1">New Doctor 👨🏻‍⚕🩺 </string>
+    <string name="tab_text_2">New Patient 👦🏻 </string>
+    <string name="titolodiprova">CIAOOOOO</string>
+    <string name="new_doctor">New Doctor 👨🏻‍⚕🩺</string>
+    <string name="new_patient">New Patient 👦🏻</string>
+    <string name="terza_page">Terza Page</string>
+    <string name="sub_title_new_doctor">FORM TO INSERT A NEW DOCTOR PROFILE</string>
+    <string name="text_credentials">CREATE A NEW CREDENTIALS:</string>
+    <string name="text_birth_data">INSERT THE INFORMATION ABOUT THE BIRTH DATA:</string>
+    <string name="text_information">INSERT EMAIL, TELPHONE AND ADDRESS OF YOUR BUSINESS:</string>
+    <string name="text_profile">INSERT NAME AND SURNAME OF THE DOCTOR:</string>
+    <string name="result">COMPILA IL FORM CON LE CREDENZIALI E PREMI "LOGIN!" </string>
+
+    //ADMINISTRATOR SECTION
+    <string name="Administrator_Instruction">Enter the data referring to the new Patient or Specialist Doctor profile</string>
+    <string name="Administrator_Credential">Create profile login credentials</string>
+    <string name="Administrator_Page">Welcome back Admin, choose the operation you want to carry out</string>
+
+    //DOCTOR SECTION
+    <string name="Doctor_UploadPDF">In this section you can upload a .PDF file of medical prescription, diet or training program</string>
+
+    //PATIENT SECTION
+    <string name="Patient_Page">Welcome Patient</string>
+    <string name="prova">Loading...</string>
+
+
+    <string name="my_app_id">data-veykl</string>
+</resources>

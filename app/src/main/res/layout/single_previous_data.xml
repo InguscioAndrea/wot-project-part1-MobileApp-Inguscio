@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/idTitle_SingleData"
+                    android:layout_weight="100"
+                    android:layout_width="0dp"
+                    android:layout_height="75dp"
+                    android:layout_marginTop="15dp"
+                    android:text="DATA OVERVIEW OF"
+                    android:textAlignment="center"
+                    android:textColor="#004d40"
+                    android:textSize="22sp"
+                    android:textStyle="bold|italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <!-- BAR CHART -->
+
+
+                <!-- PIE CHART -->
+
+
+                <org.eazegraph.lib.charts.BarChart
+                    android:id="@+id/barchart"
+                    android:layout_width="110dp"
+                    android:layout_height="200dp"
+
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="25dp"
+
+                    android:padding="10dp"
+                    app:egBarWidth="20dp"
+                    app:egFixedBarWidth="true"
+
+                    android:layout_marginStart="28dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+                </org.eazegraph.lib.charts.BarChart>
+
+                <org.eazegraph.lib.charts.PieChart
+                    android:id="@+id/piechart"
+                    android:layout_width="158dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="5dp"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    android:background="#00000000"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView22">
+
+                </org.eazegraph.lib.charts.PieChart>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout2"
+                    android:layout_width="176dp"
+                    android:layout_height="155dp"
+                    android:layout_marginTop="66dp"
+                    android:layout_marginStart="10dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/barchart">
+
+                    <!-- LEGENDA DEL PIE CHART -->
+                    <!-- LEGENDA DEL BONE MASS -->
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="145dp"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="30dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Bone Mass "
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <!-- LEGENDA DEL MUSCLE MASS -->
+
+                    <TextView
+                        android:id="@+id/tvBoneMass"
+                        android:layout_width="165dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="0"
+                        android:textAlignment="textEnd"
+                        android:textColor="#FF0000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvMuscleMass" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Muscle Mass "
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvMuscleMass" />
+
+                    <!-- LEGENDA DEL FAT MASS -->
+
+                    <TextView
+                        android:id="@+id/tvMuscleMass"
+                        android:layout_width="165dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="30dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="0"
+                        android:textAlignment="textEnd"
+                        android:textColor="#FF8000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintHorizontal_bias="1.0"
+
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="145dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Fat Mass"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvBoneMass" />
+
+                    <TextView
+                        android:id="@+id/tvFatMass"
+                        android:layout_width="165dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="0"
+                        android:textAlignment="textEnd"
+                        android:textColor="#1A237E"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvBoneMass" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout3"
+                    android:layout_width="172dp"
+                    android:layout_height="155dp"
+                    android:layout_marginEnd="28dp"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    android:layout_marginTop="25dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+                    <!-- LEGENDA DEL PIE CHART -->
+                    <!-- LEGENDA DEL BONE MASS -->
+
+                    <TextView
+                        android:id="@+id/textView_handgripMax"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="45dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Hand Grip Max"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <!-- LEGENDA DEL MUSCLE MASS -->
+
+                    <TextView
+                        android:id="@+id/legend_HGmax"
+                        android:layout_width="165dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="45dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="0"
+                        android:textAlignment="textEnd"
+                        android:textColor="#FF0000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.571"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView_handgrip_min"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="Hand Grip Min"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView_handgripMax" />
+
+                    <!-- LEGENDA DEL FAT MASS -->
+
+                    <TextView
+                        android:id="@+id/legend_HGmin"
+                        android:layout_width="165dp"
+                        android:layout_height="25dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginEnd="5dp"
+                        android:fontFamily="sans-serif-light"
+                        android:text="0"
+                        android:textAlignment="textEnd"
+                        android:textColor="#FF8000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView_handgripMax" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/piechart">
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="20dp"
+                        android:text="BMI INDEX (Body Mass Index)"
+                        android:textAlignment="center"
+                        android:textColor="#004d40"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/id_BMIexpress3"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="-5dp"
+                        android:layout_marginStart="8dp"
+                        android:text="normal weight"
+                        android:textSize="16sp"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/id_BMIvalue3" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="260dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="The body mass index represents the ratio between the ideal total weight (kg) and the square of the height (m). BMI is used to determine if you are underweight (BMI &lt; 18.5), normal weight (18.5 &lt; BMI &lt; 24.9), overweight (25.0 &lt; BMI &lt; 29.9) or obese (BMI &gt; 30.0)."
+                        android:layout_marginEnd="5dp"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+                    <Button
+                        android:id="@+id/button_back_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Back"
+                        app:icon="@drawable/ic_icons8_ritorno_64"
+                        app:iconPadding="8dp"
+                        app:iconSize="24dp"
+                        android:layout_marginStart="18dp"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView21"
+                        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                    <TextView
+                        android:id="@+id/id_BMIvalue3"
+                        android:layout_width="65dp"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="20dp"
+                        android:background="#00000000"
+                        android:text="Load"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="@+id/textView20"
+                        android:layout_marginStart="15dp"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+                    <Button
+                        android:id="@+id/btn_summary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="15dp"
+                        android:text="summary"
+                        android:layout_marginEnd="18dp"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:text="BIA TREND (Body Impedence Assessment)"
+                    android:textAlignment="center"
+                    android:textColor="#004d40"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/barchart" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:text="HAND GRIP TREND"
+                    android:textAlignment="center"
+                    android:textColor="#004D40"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/id_Speed" />
+
+                <TextView
+                    android:id="@+id/id_Speed"
+                    android:layout_width="180dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="15dp"
+                    android:text="TextView"
+                    android:textSize="18sp"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/id_StepCount" />
+
+                <TextView
+                    android:id="@+id/id_StepCount"
+                    android:layout_width="180dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="15dp"
+                    android:text="TextView"
+                    android:textSize="18sp"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/id_GaitSpeedTitle" />
+
+                <TextView
+                    android:id="@+id/id_StepFrequency"
+                    android:layout_width="180dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="15dp"
+                    android:text="TextView"
+                    android:textSize="18sp"
+                    android:layout_marginEnd="0dp"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/id_GaitSpeedTitle" />
+
+                <TextView
+                    android:id="@+id/id_FatMass"
+                    android:layout_width="180dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="15dp"
+                    android:text="TextView"
+                    android:textSize="18sp"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/id_WeightMeasure" />
+
+                <TextView
+                    android:id="@+id/id_BoneMass"
+                    android:layout_width="180dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="15dp"
+                    android:text="TextView"
+                    android:textSize="18sp"
+                    android:layout_marginEnd="0dp"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/id_MuscleMass" />
+
+                <TextView
+                    android:id="@+id/id_hand_grip_min"
+                    android:layout_width="180dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="15dp"
+                    android:text="TextView"
+                    android:textSize="18sp"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintEnd_toEndOf="@+id/id_hand_grip_max"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/Id_handGripTitle" />
+
+                <TextView
+                    android:id="@+id/id_WeightMeasure"
+                    android:layout_width="180dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="15dp"
+                    android:text="TextView"
+                    android:textSize="18sp"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/id_BIATitle" />
+
+                <TextView
+                    android:id="@+id/id_MuscleMass"
+                    android:layout_width="180dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="15dp"
+                    android:text="TextView"
+                    android:textSize="18sp"
+                    android:layout_marginEnd="0dp"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/id_BIATitle" />
+
+                <TextView
+                    android:id="@+id/id_hand_grip_max"
+                    android:layout_width="180dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="15dp"
+                    android:text="TextView"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="0dp"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/Id_handGripTitle" />
+
+                <TextView
+                    android:id="@+id/Id_handGripTitle"
+                    android:layout_width="380dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="40dp"
+                    android:text="HAND GRIP ANALYSIS RESULT"
+                    android:textColor="#004D40"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/id_operation" />
+
+                <TextView
+                    android:id="@+id/id_BIATitle"
+                    android:layout_width="380dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="40dp"
+                    android:paddingStart="0dp"
+                    android:text="BIOIMPEDANCE ANALYSIS RESULT"
+                    android:textColor="#004D40"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/id_hand_grip_max" />
+
+                <TextView
+                    android:id="@+id/id_GaitSpeedTitle"
+                    android:layout_width="380dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="18dp"
+                    android:text="GAIT SPEED ANALYSIS RESULT"
+                    android:textColor="#004D40"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/id_FatMass" />
+
+                <TextView
+                    android:id="@+id/id_operation"
+                    android:layout_width="180dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="15dp"
+                    android:text="TextView"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/idTitle_SingleData" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

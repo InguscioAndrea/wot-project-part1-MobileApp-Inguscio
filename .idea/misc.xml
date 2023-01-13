@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1855" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/hand_grip_tips_foreground.xml" value="0.1025" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/ic_favorite_24dp.xml" value="0.1855" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/ic_icon_new.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/ic_icona_sarcapp_senza_fulmine.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/ic_icons8_analytics_64.xml" value="0.1" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/ic_icons8_event_64.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/ic_icons8_exit_60.xml" value="0.1" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/ic_icons8_measure_60.xml" value="0.1" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/ic_icons8_ritorno_64.xml" value="0.1" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/ic_icons8_serratura_2_50.xml" value="0.1" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/ic_icons__medical_prescriptions.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/ic_icons_diet.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/ic_icons_pdf.xml" value="0.1" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1855" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/ic_pillole.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/ic_ricon_new.xml" value="0.1" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/icon_fitness_exercises.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/icona_create_user_background.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/icona_create_user_foreground.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/icona_creazione.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/icona_creazione_background.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/icona_creazione_matita_background.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/icona_freccia_background.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/icona_freccia_giu.xml" value="0.1" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/icona_giù_background.xml" value="0.1" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/icona_goal_background.xml" value="0.1" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/icona_help_foreground.xml" value="0.1025" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/icona_lancio.xml" value="0.1" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/icona_list_user__background.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/icona_list_user__foreground.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/icona_list_user_background.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/icona_list_user_foreground.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/icona_obiettivo.xml" value="0.1" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/icona_passato_background.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/icona_past.xml" value="0.1" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/icona_return_piccola.xml" value="0.1" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/iconahospital_background.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/iconahospital_foreground.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/information.xml" value="0.1025" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/information_vector_background.xml" value="0.1025" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/new_doctor_icon_24dp.xml" value="0.188" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/rounded_corner.xml" value="0.1" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/style_button.xml" value="0.1565" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/style_button_logout.xml" value="0.1565" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/style_spinner.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/textview_border.xml" value="0.1" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/textview_button.xml" value="0.1565" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/drawable/textview_style.xml" value="0.1595" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/activity_view_pdf.xml" value="0.15896739130434784" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/administrator_page.xml" value="0.22" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/backup.xml" value="0.11367753623188406" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/bottom_nav_menu.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/choose_measure.xml" value="0.22" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/choose_patient_data.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/choose_read_prescriptions.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/choose_tips.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/doctor_page.xml" value="0.22" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/edit_profile.xml" value="0.22" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/example.xml" value="0.22" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/fragment_main.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/graph.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/graph2.xml" value="0.14175724637681159" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/header_navigation_drawer.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/horizontal_loading.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/hospital_information.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/line_chart.xml" value="0.16032608695652173" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/line_graph.xml" value="0.22" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/list_of_users.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/list_user_page.xml" value="0.16576086956521738" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/loading.xml" value="0.22" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/login.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/new_dcotor.xml" value="0.16032608695652173" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/new_doctor.xml" value="0.22" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/new_measure_page.xml" value="0.22" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/new_patient.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/new_user_page.xml" value="0.22" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/new_user_page_correct.xml" value="0.21025641025641026" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/notification.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/patient_page.xml" value="0.22" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/pdf_page.xml" value="0.22" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/previous_data.xml" value="0.25" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/previous_data_doctor.xml" value="0.22" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/prova.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/riepilogo_grafici.xml" value="0.22" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/riepilogo_result.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/single_previous_data.xml" value="0.2718676122931442" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/single_previous_data2.xml" value="0.2718676122931442" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/specific_tips.xml" value="0.15217391304347827" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/tab1_new_doctor.xml" value="0.1796875" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/test.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/layout/type_of_users.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/menu/navigation_drawer.xml" value="0.1796875" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1785" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/mipmap-anydpi-v26/icona_creazione.xml" value="0.1" />
+        <entry key="..\:/Users/Andrew/Desktop/TabbedApplication/app/src/main/res/xml/tab1_new_doctor.xml" value="0.16666666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
